@@ -1,0 +1,89 @@
+body {
+    background-color: #151515;
+    color: #fff;
+    margin: 0px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+hr {
+	height:3px;
+	border-width:0;
+	background: transparent url("https://imageup.me/images/f666002b-b8e8-4cf7-8d2b-141dc5796908.png") center no-repeat;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+
+    color: #cacaca;
+}
+a:hover {
+    color: #868686;
+}
+
+label {
+    font-size: 18px;
+}
+
+.login-painel {
+    border-radius: 5%;
+    background-color: #3030303f;
+
+    text-align: center;
+
+    width: 480px;
+    height: 580px;
+}
+
+.logar {
+    background-color: #979797;
+
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    width: 380px;
+    height: 50px;
+
+    border-radius: 5%;
+    border: none;
+}
+.logar:hover {
+    background-color: #505050;
+}
+
+.lembrarl {
+    font-size: 14px;
+}
+
+.login_email {
+    position: absolute;
+    top: 38.3%;
+    left: 40%;
+    padding: 10px 0;
+    font-size: 16px;
+    pointer-events:all;
+    transition: .5s;
+}
+.login_senha {
+    position: absolute;
+    top: 46%;
+    left: 40%;
+    padding: 10px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.text_input {
+    width: 300px;
+    height: 28px;
+}
