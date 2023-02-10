@@ -64,25 +64,6 @@ label {
     font-size: 14px;
 }
 
-.login_email {
-    position: absolute;
-    top: 38.3%;
-    left: 40%;
-    padding: 10px 0;
-    font-size: 16px;
-    pointer-events:all;
-    transition: .5s;
-}
-.login_senha {
-    position: absolute;
-    top: 46%;
-    left: 40%;
-    padding: 10px 0;
-    font-size: 16px;
-    pointer-events: none;
-    transition: .5s;
-}
-
 .text_input {
     width: 300px;
     height: 28px;
