@@ -34,6 +34,11 @@ label {
     font-size: 18px;
 }
 
+b {
+    font-size: 10pt;
+    color: red;
+}
+
 .login-painel {
     border-radius: 5%;
     background-color: #3030303f;

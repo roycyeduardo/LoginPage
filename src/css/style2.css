@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://i.makeagif.com/media/12-04-2018/IxHq7M.gif");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+
+    height: 100vh;
+    margin: 0;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #fff;
+}

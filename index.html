@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="./src/css/style1.css">
     <link rel="shortcut icon" href="./src/img/iconCadeado.png" type="image/x-icon">
+
 </head>
 <body>
     <div class="login-painel">
@@ -18,25 +19,25 @@
         <h1>LOGIN</h1>
         <h3>Faça seu login para acessar seu perfil!</h3>
         <br>
+
         <form id="login">
-            <label class="login_email">Email:</label>
-            <input type="email" class="text_input"><br>
+            <label>Email:</label>
+            <input type="email" id="login_email"><br>
             <br>
-            <label class="login_senha">Senha:</label>
-            <input type="password" class="text_input"><br>
-            <p id="checkpassword"></p>
+            <label>Senha:</label>
+            <input type="password" id="login_senha"><br>
+            <p id="checarconta"></p>
             <br>
-            <input type="button" class="logar" value="LOGAR"><br>
+            <input type="submit" class="logar" value="LOGAR"><br>
             <br>
-            <input type="checkbox" class="lembrar">
-            <label class="lembrarl">Lembre de mim</label> | <a href="#">Esqueceu sua senha?</a>
+            <a href="#">Esqueceu sua senha?</a>
         </form>
 
         <br>
         <hr>
         <br>
-
-
     </div>
+
+    <script src="./src/js/login.js"></script>
 </body>
 </html>
