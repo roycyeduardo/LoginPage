@@ -48,4 +48,4 @@ Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria ou 
 
 ## Imagem do projeto
 
-![Tela de Login](src/img/Exemplo1.png)
+![Tela de Login](src/img/Exemplo.png)
