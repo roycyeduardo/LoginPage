@@ -2,42 +2,30 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-
     <link rel="stylesheet" href="./src/css/style1.css">
     <link rel="shortcut icon" href="./src/img/iconCadeado.png" type="image/x-icon">
-
 </head>
 <body>
     <div class="login-painel">
-        <br>
-        <hr>
-        <br>
-
         <h1>LOGIN</h1>
         <h3>Faça seu login para acessar seu perfil!</h3>
-        <br>
 
         <form id="login">
-            <label>Email:</label>
-            <input type="email" id="login_email"><br>
-            <br>
-            <label>Senha:</label>
-            <input type="password" id="login_senha"><br>
+            <div class="form-group">
+                <label for="login_email">Email:</label>
+                <input type="email" id="login_email" name="login_email" required>
+            </div>
+            <div class="form-group">
+                <label for="login_senha">Senha:</label>
+                <input type="password" id="login_senha" name="login_senha" required>
+            </div>
             <p id="checarconta"></p>
-            <br>
-            <input type="submit" class="logar" value="LOGAR"><br>
-            <br>
+            <button type="submit" class="logar">LOGAR</button>
             <a href="#">Esqueceu sua senha?</a>
         </form>
-
-        <br>
-        <hr>
-        <br>
     </div>
-
     <script src="./src/js/login.js"></script>
 </body>
 </html>
